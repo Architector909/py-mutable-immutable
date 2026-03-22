@@ -3,6 +3,7 @@ lucky_number = 777
 pi = 3.14
 one_is_a_prime_number = False
 name = "Richard"
+profile_info = ("michel", "michel@gmail.com", "12345678")  # tuple, immutable
 
 # mutable
 my_favourite_films = [
@@ -12,11 +13,10 @@ my_favourite_films = [
     "The Good, the Bad and the Ugly",
     "The Matrix",
 ]
-profile_info = ("michel", "michel@gmail.com", "12345678")
-marks = {"John": 4, "Sergio": 3}
-collection_of_coins = {1, 2, 25}
+marks = {"John": 4, "Sergio": 3}  # dict, mutable
+collection_of_coins = {1, 2, 25}  # set, mutable
 
 sorted_variables = {
-    "immutable": [lucky_number, pi, one_is_a_prime_number, name],
-    "mutable": [my_favourite_films, profile_info, marks, collection_of_coins],
+    "immutable": [lucky_number, pi, one_is_a_prime_number, name, profile_info],
+    "mutable": [my_favourite_films, marks, collection_of_coins],
 }
