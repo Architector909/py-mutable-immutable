@@ -22,4 +22,3 @@ sorted_variables = {
     ],
 }
 
-
