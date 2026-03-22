@@ -1,9 +1,11 @@
+# определяем переменные
+
 # immutable
 lucky_number = 777
 pi = 3.14
 one_is_a_prime_number = False
 name = "Richard"
-profile_info = ("michel", "michel@gmail.com", "12345678")
+profile_info = ("michel", "michel@gmail.com", "12345678")  # tuple — immutable
 
 # mutable
 my_favourite_films = [
@@ -16,6 +18,7 @@ my_favourite_films = [
 marks = {"John": 4, "Sergio": 3}
 collection_of_coins = {1, 2, 25}
 
+# создаем словарь sorted_variables
 sorted_variables = {
     "immutable": [
         lucky_number,
@@ -30,4 +33,3 @@ sorted_variables = {
         collection_of_coins,
     ],
 }
-
